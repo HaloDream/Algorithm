@@ -28,7 +28,7 @@ int main(void)
 
         if (!isspace(c) && !inword)
         {
-            inword = true;  //开始一个心胆此
+            inword = true;  //开始一个新单词
             n_words++;     //统计单词
         }
         
